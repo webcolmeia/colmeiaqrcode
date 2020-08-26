@@ -1,11 +1,15 @@
 import React from 'react';
 import { HashRouter } from 'react-router-dom';
-import Routers from './Routers';
+import Routes from './Routes';
+import Header from './Layout/Heager';
+import Footer from './Layout/Footer';
 
 function App() {
   return (
     <HashRouter>
-        <Routers />
+        <Header />
+        <Routes />
+        <Footer />
     </HashRouter>
   );
 }

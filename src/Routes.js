@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-const Routers = () => {
+const Routes = () => {
 
     return(
         <Switch>
@@ -12,4 +12,4 @@ const Routers = () => {
     )
 }
 
-export default Routers;
+export default Routes;
