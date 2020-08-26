@@ -1,10 +1,12 @@
 import React from 'react';
+import { HashRouter } from 'react-router-dom';
+import Routers from './Routers';
 
 function App() {
   return (
-    <div className="App">
-      App Rodando
-    </div>
+    <HashRouter>
+        <Routers />
+    </HashRouter>
   );
 }
 
