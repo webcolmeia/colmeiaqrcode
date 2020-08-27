@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container } from '../../Components/Contaier';
 import { Main } from '../../Components/Main';
 import QRCode from "react-qr-code";
+import { Button } from '../../Components/Button';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <p>
                     Escolha abaixo qual tipo de Qr Code você gostaria de criar.
                 </p>
+                <Button bg='primary'>Button</Button>
             </Main>
         </Container>
     );
