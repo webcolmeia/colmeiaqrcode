@@ -1,13 +1,15 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
+// Begin pages
+import Home from './Page/Home';
+// End Pages
+
 const Routes = () => {
 
     return(
         <Switch>
-            <Route exact path="/" >
-                Rodando Aqui
-            </Route>
+            <Route exact path="/" component={Home} />
         </Switch>
     )
 }

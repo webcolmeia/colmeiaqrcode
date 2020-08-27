@@ -1,11 +1,14 @@
 import React from 'react';
 import { HeaderApp } from './style';
+import { Container } from '../../Components/Contaier';
 
 const Header = () => {
 
     return(
         <HeaderApp>
-            Colmeia QrCode
+            <Container>
+                Colmeia QrCode
+            </Container>
         </HeaderApp>
     )
 }
