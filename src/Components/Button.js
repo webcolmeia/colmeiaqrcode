@@ -16,7 +16,7 @@ export const Button = styled(Link)`
     };
     border-radius: 5px;
     margin: 5px;
-    display: inline-flex;
     color: #fff;
     text-decoration: none;
+    display: inline-flex;
 `;

@@ -4,4 +4,5 @@ export const Main = styled.div`
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 `;
