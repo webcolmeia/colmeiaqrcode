@@ -30,6 +30,7 @@ const Urlqr = () => {
               <Input.Field
                 type="number"
                 onChange={(text) => setSizeValue(text.target.value)}
+                value={sizeValue}
               />
             </Input>
             <Input>
